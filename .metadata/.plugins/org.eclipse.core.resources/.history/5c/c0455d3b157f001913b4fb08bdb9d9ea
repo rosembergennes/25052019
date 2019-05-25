@@ -1,0 +1,5 @@
+package mvc.regrasdenegocio;
+
+public class RegraDeleteClientes {
+
+}

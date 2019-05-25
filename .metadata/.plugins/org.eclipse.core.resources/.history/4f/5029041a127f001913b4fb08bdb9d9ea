@@ -1,0 +1,8 @@
+package mvc.regrasdenegocio;
+
+import javax.servlet.http.HttpServletRequest;
+
+public interface Regra {
+	String execute(HttpServletRequest request, HttpServletRespond response ) throws Exceptions);
+
+}

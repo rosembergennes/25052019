@@ -1,0 +1,25 @@
+package mvc.regrasdenegocio;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import dao.ClienteDao;
+import modelo.Cliente;
+
+public class RegraDeleteClientes2 implements Regra{
+
+	@Override
+	public String execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		Long id = Long.parseLong(request.getParameter("id"));
+		Cliente cliente = new Cliente();
+		cliente.setId(id);
+		
+		ClienteDao dao = new ClienteDao();
+		dao.excluir(cliente);
+		
+		System.out.println("Deletando Cliente");
+		
+		return "testejstl2.jsp";
+	}
+
+}

@@ -1,0 +1,11 @@
+127.0.0.1 - - [25/May/2019:14:30:19 -0300] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/May/2019:14:31:22 -0300] "GET /javaweb/mvc?regra=TestePrimeiraRegraFake HTTP/1.1" 404 1089
+0:0:0:0:0:0:0:1 - - [25/May/2019:14:31:22 -0300] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [25/May/2019:14:31:58 -0300] "GET /javaWeb/mvc?regra=TestePrimeiraRegraFake HTTP/1.1" 500 190
+0:0:0:0:0:0:0:1 - - [25/May/2019:14:35:04 -0300] "GET /javaWeb/mvc?regra=TestePrimeiraRegraFake HTTP/1.1" 200 151
+0:0:0:0:0:0:0:1 - - [25/May/2019:14:35:49 -0300] "GET /javaWeb/mvc?regra=TestePrimeiraRegraFake HTTP/1.1" 200 181
+127.0.0.1 - - [25/May/2019:14:48:41 -0300] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/May/2019:14:54:20 -0300] "GET /javaWeb/mvc?regra=RegraDeleteClientes&id=3 HTTP/1.1" 200 646
+127.0.0.1 - - [25/May/2019:15:02:46 -0300] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/May/2019:15:03:17 -0300] "GET /javaWeb/testejstl2.jsp HTTP/1.1" 200 807
+0:0:0:0:0:0:0:1 - - [25/May/2019:15:03:23 -0300] "GET /javaWeb/mvc?regra=RegraDeleteClientes2&id=2 HTTP/1.1" 200 559

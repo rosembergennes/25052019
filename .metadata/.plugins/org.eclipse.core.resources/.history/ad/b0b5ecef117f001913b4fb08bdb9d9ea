@@ -1,0 +1,5 @@
+package mvc.servlet;
+
+public class Controller {
+
+}
